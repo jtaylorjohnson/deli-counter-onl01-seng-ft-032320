@@ -11,6 +11,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |person, number|
     results << "#{number+1}. #{person}"
     end
+    puts #[results]
   end
 end
 
